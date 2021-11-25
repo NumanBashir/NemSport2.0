@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/forsideFragment">
+
+    <fragment
+        android:id="@+id/forsideFragment"
+        android:name="com.example.nemsport_v2.forsideFragment"
+        android:label="fragment_forside"
+        tools:layout="@layout/fragment_forside" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.nemsport_v2.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/opretFragment"
+        android:name="com.example.nemsport_v2.opretFragment"
+        android:label="fragment_opret"
+        tools:layout="@layout/fragment_opret" />
+    <fragment
+        android:id="@+id/glemtKodeFragment"
+        android:name="com.example.nemsport_v2.glemtKodeFragment"
+        android:label="fragment_glemt_kode"
+        tools:layout="@layout/fragment_glemt_kode" />
+</navigation>
